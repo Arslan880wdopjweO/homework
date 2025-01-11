@@ -19,6 +19,7 @@ public class Main {
         for (Payable p : payables) {
             String details = p instanceof Employee ? "Employee" : "Student";
             System.out.printf("%s: %s earns %.2f tenge%n", details, p, p.getPaymentAmount());
+            /// asdasdasdasd
         }
     }
 }
